@@ -1,0 +1,23 @@
+programa
+{
+	
+	funcao inicio()
+	
+	{
+		inteiro Numero, Indice, Soma, Media	
+	     Soma=0
+	     Indice=0
+	     Soma=0
+	     Media= 0
+	     
+	     para(Indice= 1; Indice<=5; Indice++)
+	     { 
+		escreva("Digite um numero:")
+		leia(Numero)
+		Soma=Soma+Numero
+	}
+	Media=Soma/5
+	escreva ("A soma dos 50 numeros e:",Soma)
+	escreva("\nA media dos 50 numeros e:",Media)
+}
+}
