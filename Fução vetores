@@ -1,0 +1,25 @@
+programa
+{	
+	funcao inicio()
+	{
+		inteiro Mvetor[10] //Declara um vetor com 10 posições
+		
+		 para (inteiro i = 0; i < 10; i++)
+		 {
+		 	escreva (" digite um número: ")
+		 	leia (Mvetor[i])
+		 }
+		 escreva("A soma do vetoré : ", somavetor (Mvetor))
+		 
+	}
+	funcao inteiro somavetor (inteiro v[])
+	{
+	inteiro Msoma
+	Msoma=0
+		para (inteiro i= 0;i <10; i++)
+		{
+			Msoma=Msoma +v[i]
+		}
+		retorne Msoma
+	}
+}
